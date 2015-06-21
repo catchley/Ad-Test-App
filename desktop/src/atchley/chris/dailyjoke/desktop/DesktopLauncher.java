@@ -7,6 +7,6 @@ import atchley.chris.dailyjoke.DailyJoke;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		new LwjglApplication(new DailyJoke(), config);
+		new LwjglApplication(new DailyJoke(null), config);
 	}
 }
